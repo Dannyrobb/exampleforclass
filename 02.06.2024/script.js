@@ -123,6 +123,7 @@ let person = {
     console.log(`${this.firstName} eats ${this.favoriteFood}`);
   },
 };
+
 let person1 = {
   firstName: "bob",
   eyeColor: "green",
@@ -131,5 +132,9 @@ let person1 = {
     console.log(`${this.firstName} eats ${this.favoriteFood}`);
   },
 };
+person.eat();
+person.eat();
+person.eat();
+person.eat();
 person.eat();
 person1.eat();
