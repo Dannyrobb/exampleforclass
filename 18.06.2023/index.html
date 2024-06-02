@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+      }
+      #top-container {
+        height: 15%;
+        border: 1px solid;
+      }
+      #top {
+        width: 50%;
+        height: 60%;
+        border: 1px solid;
+        margin: 20px;
+      }
+      #middle-container {
+        height: 85%;
+        border: 1px solid red;
+      }
+      #left {
+        width: 70%;
+        height: 40%;
+        border: 1px solid black;
+        margin-left: 5%;
+        margin-top: 30px;
+        float: left;
+      }
+      #right {
+        width: 25%;
+        border: 1px solid;
+        height: 70%;
+        float: right;
+      }
+
+      .half {
+        height: 100%;
+        width: 50%;
+      }
+
+      #baby-div {
+        float: right;
+        width: 20%;
+        height: 10%;
+        border: 1px solid;
+        margin-top: 11vh;
+      }
+
+      #baby-right-top {
+        height: 70%;
+        width: 100%;
+      }
+      #baby-right-bottom {
+        height: 30%;
+        width: 100%;
+        text-align: center;
+      }
+
+      #baby-baby-right {
+        width: 90%;
+        display: inline-block;
+        height: 60%;
+        border: 1px solid;
+      }
+    </style>
+    <div id="top-container">
+      <div id="top"></div>
+    </div>
+    <div id="middle-container">
+      <div id="left">
+        <div class="half">
+          <div id="baby-div"></div>
+        </div>
+        <div class="half"></div>
+      </div>
+      <div id="right">
+        <div id="baby-right-top"></div>
+        <div id="baby-right-bottom">
+          <div id="baby-baby-right"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
